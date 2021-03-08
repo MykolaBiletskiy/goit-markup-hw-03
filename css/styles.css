@@ -189,9 +189,11 @@ body{
 }
 /* Чем мы занимаемся */
 
+.service{
+    padding-bottom: 94px;
+}
 .service-list{
     display: flex;
-    margin-bottom: 94px;
 }
 
 .service .section-title,
@@ -208,8 +210,11 @@ body{
 
 .team{
     background-color: var(--accessorial-background-color);
-    padding-top: 94px;
     padding-bottom: 94px;
+}
+.container-team{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-card{
     background-color: var(--primary-background-color);
@@ -217,7 +222,6 @@ body{
     border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
-
 .team-card:not(:last-child){
     margin-right: 30px;
 }
@@ -232,9 +236,6 @@ body{
     padding-top: 30px;
 }
 
-.team .section-item{
-    margin: 0px 0px 30px;
-}
 
 .team-card .subtitle,
 .team-card .career{
@@ -324,6 +325,14 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+p{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 .portfolio .text{
     color: var(--secondary-text-color);
